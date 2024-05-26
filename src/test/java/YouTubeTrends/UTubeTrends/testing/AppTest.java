@@ -31,6 +31,7 @@ public class AppTest extends Base{
 		driver.pressPageDown();
 		test.pass("Screenshot", MediaEntityBuilder.createScreenCaptureFromPath(driver.takeScreenShot(getDirectory())).build());
 		
+		
 	}
 	@Test
 	public void test2() throws IOException {
