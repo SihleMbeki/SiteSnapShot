@@ -1,61 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="3" total="7" passed="4" failed="0" skipped="0">
+<testng-results ignored="3" total="4" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-02-09T20:51:28Z" name="Default suite" finished-at="2024-02-09T20:56:14Z" duration-ms="285306">
+  <suite started-at="2024-05-26T18:28:06Z" name="Default suite" finished-at="2024-05-26T18:29:14Z" duration-ms="68117">
     <groups>
     </groups>
-    <test started-at="2024-02-09T20:51:28Z" name="Default test" finished-at="2024-02-09T20:56:14Z" duration-ms="285306">
+    <test started-at="2024-05-26T18:28:06Z" name="Default test" finished-at="2024-05-26T18:29:14Z" duration-ms="68117">
       <class name="YouTubeTrends.UTubeTrends.testing.AppTest">
-        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:YouTubeTrends.UTubeTrends.testing.AppTest@37e4d7bb]" started-at="2024-02-09T20:51:26Z" name="suiteSetup" finished-at="2024-02-09T20:51:28Z" duration-ms="2720" status="PASS">
+        <test-method is-config="true" signature="suiteSetup()[pri:0, instance:YouTubeTrends.UTubeTrends.testing.AppTest@6f7923a5]" started-at="2024-05-26T18:26:23Z" name="suiteSetup" finished-at="2024-05-26T18:28:06Z" duration-ms="102121" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteSetup -->
-        <test-method signature="test4(java.lang.String)[pri:0, instance:YouTubeTrends.UTubeTrends.testing.AppTest@37e4d7bb]" started-at="2024-02-09T20:51:28Z" name="test4" data-provider="test1" finished-at="2024-02-09T20:52:09Z" duration-ms="40402" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.rt.com]]>
-              </value>
-            </param>
-          </params>
+        <test-method signature="test()[pri:0, instance:YouTubeTrends.UTubeTrends.testing.AppTest@6f7923a5]" started-at="2024-05-26T18:28:06Z" name="test" finished-at="2024-05-26T18:29:14Z" duration-ms="68095" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- test4 -->
-        <test-method signature="test4(java.lang.String)[pri:0, instance:YouTubeTrends.UTubeTrends.testing.AppTest@37e4d7bb]" started-at="2024-02-09T20:52:09Z" name="test4" data-provider="test1" finished-at="2024-02-09T20:53:41Z" duration-ms="91978" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.aljazeera.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test4 -->
-        <test-method signature="test4(java.lang.String)[pri:0, instance:YouTubeTrends.UTubeTrends.testing.AppTest@37e4d7bb]" started-at="2024-02-09T20:53:41Z" name="test4" data-provider="test1" finished-at="2024-02-09T20:54:38Z" duration-ms="57159" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://www.bbc.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test4 -->
-        <test-method signature="test4(java.lang.String)[pri:0, instance:YouTubeTrends.UTubeTrends.testing.AppTest@37e4d7bb]" started-at="2024-02-09T20:54:38Z" name="test4" data-provider="test1" finished-at="2024-02-09T20:56:14Z" duration-ms="95733" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://sputnikglobe.com]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- test4 -->
-        <test-method is-config="true" signature="suiteCleanup()[pri:0, instance:YouTubeTrends.UTubeTrends.testing.AppTest@37e4d7bb]" started-at="2024-02-09T20:56:14Z" name="suiteCleanup" finished-at="2024-02-09T20:56:14Z" duration-ms="606" status="PASS">
+        </test-method> <!-- test -->
+        <test-method is-config="true" signature="suiteCleanup()[pri:0, instance:YouTubeTrends.UTubeTrends.testing.AppTest@6f7923a5]" started-at="2024-05-26T18:29:14Z" name="suiteCleanup" finished-at="2024-05-26T18:29:14Z" duration-ms="471" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- suiteCleanup -->
